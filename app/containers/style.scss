@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('roboto'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald'), local('oswald'), url('../fonts/Oswald-Regular.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto'), local('roboto'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto'), local('roboto'), url('../fonts/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light.ttf') format('truetype')
+}
+
+body {
+  margin: 0;
+  color: white;
+  min-height: 100vh;
+  font: 14px "Roboto", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.site {
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:link {
+    color: #c682e6;
+
+  }
+  &:visited {
+    color: #a632e0;
+  }
+}
+
+h3 {
+  margin: 0
+}
+
+p {
+  margin: 10px;
+}
+li{
+  margin: 10px;
+}

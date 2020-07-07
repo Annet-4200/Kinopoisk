@@ -1,0 +1,28 @@
+export const FETCH_START = 'FETCH_START';
+export const FETCH_END = 'FETCH_END';
+
+export const UPDATE_GENRES = 'UPDATE_GENRES';
+export const GET_GENRES = 'GET_GENRES';
+
+export const GET_FILMS = 'GET_FILMS';
+export const UPDATE_FILMS = 'UPDATE_FILMS';
+
+export const UPDATE_FILTERED_FILMS = 'UPDATE_FILTERED_FILMS';
+export const GET_FILTERED_FILMS = "GET_FILTERED_FILMS";
+
+export const GET_CINEMAS = 'GET_CINEMAS';
+export const UPDATE_CINEMAS = 'UPDATE_CINEMAS';
+
+export const GET_STUDIOS = 'GET_STUDIOS';
+export const UPDATE_STUDIOS = 'UPDATE_STUDIOS';
+
+export const GET_ACTORS = 'GET_ACTORS';
+export const UPDATE_ACTORS = 'UPDATE_ACTORS';
+
+export const GET_PRODUCERS = 'GET_PRODUCERS';
+export const UPDATE_PRODUCERS = 'UPDATE_PRODUCERS';
+
+export const GET_HALLS = 'GET_HALLS';
+export const UPDATE_HALLS = 'UPDATE_HALLS';
+
+export const UPDATE_TOKEN = 'UPDATE_TOKEN';
