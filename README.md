@@ -5,9 +5,8 @@ This is a sophisticated boilerplate that uses React on front-end and Node.js (Ex
 This boilerplate is empowered by the following technologies:
 • Redux  
 • Redux-saga  
-• Mongoose  
-• Material-UI  
-• Moment  
+• Realm
+• Material-UI    
 
 It's a usable CRUD (Create, Read, Update, Delete) app, using todo-s to illustrate that.
 
@@ -16,7 +15,6 @@ Follow the steps below to get started using this boilerplate for your project!
 ### Prerequisites
 • Node - version >= 7  
 • npm - version >= 4  
-• MongoDB - any version
 
 ## Install
 
@@ -31,10 +29,13 @@ $ npm install
 ```
 ## Run
 
-Start the app:
+Start the app in first terminal:
 ```bash
-$ npm start
+$ npm run start-dev
 ```
-This command will start the React application and API simultaneously.
+And in the second:
+```bash
+$ npm run out-of-whiskey
+```
+This commands will start the React application and API simultaneously.
 
-Try to add, edit, and delete todos and enjoy all the functionalities provided.
