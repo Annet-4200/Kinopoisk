@@ -48,7 +48,6 @@ export const theme = createMuiTheme({
 });
 import { Search } from "./Search";
 import Help from "./Help/Help";
-import House from "./House/House";
 
 class IndexApp extends Component {
 
