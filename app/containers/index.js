@@ -77,7 +77,6 @@ class IndexApp extends Component {
                 backgroundColor: '#262626'
               }} className={'site'}>
                 <Switch>
-                    <Route exact path='/house' component={House}/>
                   <Route exact path='/' component={Home}/>
                   <Route exact path='/admin' component={Admin}/>
                   <Route exact path='/help' component={Help}/>
